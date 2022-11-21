@@ -1,9 +1,10 @@
-﻿//void| eсть методы, которые могут возращать какие-то значения, а есть, которые ничего не возвращают. 
+﻿//VOID| eсть методы, которые могут возвращать какие-то значения, а есть, которые ничего не возвращают. 
 // Void - ничего не возвращает
+
 void FillArray(int [] collection)
 {
     int length = collection.Length;
-    int index =0;
+    int index = 0;
     while (index < length);
     {
         collection[index] = new Random().Next(1, 10);
